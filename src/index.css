@@ -187,6 +187,81 @@ body {
   font-weight: 500;
 }
 
+--- MENU SECTION ---
+.menu-container {
+  padding: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.menu-container h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* --- SEARCH BAR --- */
+.search-bar {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.search-bar input {
+  padding: 10px 12px;
+  width: 80%;
+  max-width: 420px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.pizza-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 300px));
+  justify-content: center;
+  gap: 20px;
+}
+
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}
+
+
+.pizza-card {
+  width: 240px;
+  border: 1px;
+  border-radius: 8px;
+  padding: 12px; 
+}
+.pizza-card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.pizza-card h3 {
+  margin: 6px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.pizza-card p {
+  margin: 6px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.pizza-card strong {
+  display: inline-block;
+  margin-top: 8px;
+  color: #000;
+}
+
+
 
 /*
 SPACING SYSTEM (px)
